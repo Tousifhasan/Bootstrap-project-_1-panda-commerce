@@ -24,10 +24,30 @@
     border-radius: 8px;
     padding:9px 25px;
     cursor:pointer;
+    margin-top: 5%;
+}
+.by-now:hover{
+    color: #102c55;
+    transform: translateY(-10px);
+}
+.by-now-submit{
+    background-image: linear-gradient(to bottom,#ff589b 0%, #ff136f 100%);
+    color:#fff;
+    border:none;
+    border-radius: 8px;
+    padding:9px 25px;
+    cursor:pointer;
+    margin-top: 5%;
+}
+.by-now-submit:hover{
+   color:#102c55;
 }
 .cat-1, .cat-2, .cat-3{
     padding:10px 30px;
     border-radius: 10px;
+}
+.cat-1:hover,.cat-2:hover,.cat-3:hover {
+    transform: translateY(-10px);
 }
 .cat-1{
     background-color: rgb(243, 191, 48);
@@ -58,4 +78,8 @@
 }
 footer{
        text-align: center;
+}
+.c-1:hover{
+
+     transform: translateY(-10px);
 }
